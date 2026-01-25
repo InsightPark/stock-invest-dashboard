@@ -197,8 +197,8 @@ def extract_keywords(full_texts, ticker_name, market='kr'):
 # ==============================================================================
 # [5] 메인 사용자 인터페이스 (UI) 및 분석 컨트롤러
 # ==============================================================================
-st.set_page_config(page_title="주식 투자 판단 대시보드 v13.1", layout="wide")
-st.title("📊 주식 투자 판단 대시보드 (v13.1)")
+st.set_page_config(page_title="주식 투자 판단 대시보드 v13.11", layout="wide")
+st.title("📊 주식 투자 판단 대시보드 (v13.11)")
 
 # 사이드바: 시장 선택 및 필터 파라미터 설정
 market_choice = st.radio("📌 대상 선택", ["한국주식", "미국주식", "암호화폐"], horizontal=True)
