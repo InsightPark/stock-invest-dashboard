@@ -1,5 +1,5 @@
 {
-  "tickers": "AMZN, AAPL, MSFT, GOOGL, META, NVDA, UNH, ORCL, REGN, BE, CRM, PLTR, TSLA, NKE, ONON, GM, F, SBUX, V",
+  "tickers": "AMZN, AAPL, MSFT, GOOGL, META, NVDA, UNH, IONQ, CRM, PLTR, TSLA, NKE, ONON, GM, F, SBUX, V, MU, INTC",
   "max_per": 20,
   "min_up": 70,
   "min_drop": 30,
