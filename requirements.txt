@@ -9,3 +9,4 @@ openpyxl
 xlsxwriter
 requests
 setuptools
+pyarrow
