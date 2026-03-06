@@ -23,7 +23,7 @@ os.makedirs(HISTORY_DIR, exist_ok=True)
 def init_session_state():
     """Streamlit 세션 상태 초기화: 앱 리프레시 시에도 유지될 기본값 설정"""
     defaults = {
-        "tickers_input": "005930, 000660, 005380, 000270, 012330, 035420, 035720, 017670, 207940, 008770, 041510, 122870, 035900, 352820",
+        "tickers_input": "005930, 000660, 005380, 005385, 000270",
         "max_per": 20, "min_up": 70, "min_drop": 30, "min_div": 4.0,
         "df": None, "market": "kr", "saved_portfolio": {}
     }
@@ -401,6 +401,7 @@ if df is not None:
 
     # 4. 화면 출력 (config에서 alignment 제거)
     st.dataframe(styled_df, use_container_width=True)
+    # st.write(styled_df.to_html(escape=False), unsafe_allow_html=True)
 
     # 종목별 상세 요약 카드 출력
     st.subheader("🧠 AI 투자 요약")
